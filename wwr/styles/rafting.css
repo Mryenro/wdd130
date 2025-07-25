@@ -201,6 +201,10 @@ h1 {
     width: 125px;
 }
 
+
+
+/* divide footer into 3 fractions */
+
 footer {
     display: grid;
     grid-template-columns: 1fr auto 1fr;
@@ -212,7 +216,6 @@ footer {
     border-top: 1px solid var(--accent2-color);
 
 }
-
 
 footer p {
     
@@ -228,7 +231,6 @@ footer p {
 
 
 }
-
 
 .socialmedia img {
    
