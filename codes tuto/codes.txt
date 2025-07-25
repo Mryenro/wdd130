@@ -1,0 +1,16 @@
+css: flex: https://flexboxfroggy.com/
+grid: https://cssgridgarden.com/
+
+horizontal display: 
+justify-content: flex-start/end/centre
+align-items: 
+
+
+
+grid-template-rows/columns
+grid-column-start: 5 // span 4
+grid-column-end: 4 // span 2
+grid-row-start:
+grid-area: 1 row start / 5 column start/ 2 row finish / 6 column finish (exemple)  
+order:
+grid-template:  1fr 50px / 1fr 4fr
