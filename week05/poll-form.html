@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | HTML Form - User Poll </title>
+    <!-- same fonts as my about.html but could use others if necessary -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/poll-form.css">
+    
+</head>
+
+
+
+<body>
+    <header>
+    <h1>WDD 130 | Hamza Bouhou | HTML Form - User Poll </h1>
+
+    </header>
+    <main>
+        <form>
+            <fieldset>
+
+                <legend>Contact Information</legend>
+                <!-- form elements will go here  -->
+                 <div class="form-item column2">
+                    <label for="Fullname">Full Name</label>
+                    <input type="text"  id="Fullname" name="Fullname">
+
+                 </div>
+                
+                <div class="form-item column2">
+                    <label for="Useremail">Email</label>
+                    <input type="email"  id="Useremail" name="Useremail">
+
+                </div>
+                
+
+            </fieldset>
+        <fieldset>
+            <legend>Questions</legend>
+            <div class="form-item column1">
+                 <!-- form elements will go here -->
+                <label for="browser">What is your favorite internet browser?
+                <!-- wraped the select options inside the label so that it can be aligned to the right with it -->
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="edge">Edge</option>
+                        <option value="opera">Opera</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                    </select>
+                </label>    
+            </div>
+           
+            
+            <div class="form-item column1">
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet">
+            </div>
+           
+            <div class="form-item column1">
+                <label for="feedback">List the places you have lived.</label>
+                <textarea id="feedback" name="feedback"  rows="4" placeholder="Paris France, Rabat Morocco, Berlin Germany, Amsterdam Netherland"></textarea>
+
+            </div>
+            
+            
+            
+        </fieldset>
+        <button type="submit">Submit Poll</button>
+    </form>
+
+
+    </main>
+
+
+    <footer>
+    <p>©2025 | HTML Form - User Form - User Poll Activity | Hamza Bouhou</p>
+
+
+    </footer>
+</body>
+</html>
