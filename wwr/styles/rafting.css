@@ -124,7 +124,7 @@ nav, p, section, article {
 .adventures-gallery {
     grid-area: 2 / 1 / 4 / 6;
     display: flex;
-   
+
     color: black;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -236,4 +236,187 @@ footer p {
    
     width: 20px;
     height: 20px;
+}
+
+
+
+
+
+
+/* form section */
+
+form {
+    display: grid;
+    width: 900px;
+    margin: 0 auto ;
+    padding: 0;
+    border: 1px solid #333;
+    border-radius: 1rem;
+    background-color: var(--secondary-color);
+
+}
+
+
+
+/* button customisation */
+
+
+
+.contacts {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 20px 1fr;
+    color: black;
+    font-family: var(--body-font);
+    align-items: center;
+    font-size: larger;
+}
+    
+
+
+.company-infornation img {
+    width: 20px;
+    height: 20px;
+
+}
+
+.map p {
+    color: black;
+
+}
+
+.employees {
+    text-align: center;
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.employees h2 {
+    grid-area: 1 / 2 / 2 / 4;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.employees-profiles {
+    grid-area: 2 / 1 / 4 / 6;
+    display: flex;
+    color: black;
+    font-family: var(--body-font);
+    gap: 20px;
+    
+
+}
+
+.employees-profiles figure {
+    border: thin var(--accent2-color) solid;
+    background-color: var(--accent1-color);
+}
+
+.form-item {
+    display: grid;
+    align-items: start;
+
+}
+
+
+
+
+.column1 {
+    grid-template-columns: 1fr 1fr 100px;
+    grid-template-rows: 1fr 1fr ;
+    margin: 0.5rem;
+    
+
+    
+
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    display: grid;
+    margin: 0.5rem;
+    gap: 0.5rem ;
+}
+
+
+/* fieldsets of form*/
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    color: black;
+    
+}
+
+
+.radio {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    margin-left: 1rem;
+    padding-left: 1rem;
+    justify-content: flex-start;
+
+}
+
+.radio input {
+    margin-right: 0.4rem;
+}
+
+
+
+.message {
+    display: contents;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+label.subscribe {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: black;
+}
+
+/* button customisation */
+
+
+button {
+    margin: 2rem auto;
+    display: block;
+    color: black;
+    padding: 0.5rem 1.5rem;
+    width: auto;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    /* cursor: pointer makes a pointer before clicking */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: var(--accent1-color);
+
+}
+
+
+
+.column2 input {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+
 }
