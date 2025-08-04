@@ -420,3 +420,8 @@ button:hover {
     border-radius: 5px;
 
 }
+
+
+.subscribe input {
+    margin-right: 0.4rem;
+}
