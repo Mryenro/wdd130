@@ -425,3 +425,23 @@ button:hover {
 .subscribe input {
     margin-right: 0.4rem;
 }
+
+
+.company-infornation h1 {
+    position: static;
+    top: 20px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    background-color: var(--accent1-color);
+    color: black;
+    margin-bottom: 4rem;
+
+}
+
+
+iframe {
+    border: none;
+    width: 600px;
+    height: 450px;
+}
