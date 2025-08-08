@@ -550,9 +550,9 @@ iframe {
 }
 
 .trips-gallery figcaption {
-    margin-top: 0.5rem;
-    color: var(--accent2-color);
-    font-family: var(--heading-font);
+    margin: 0.5rem;
+    margin-top: 2rem;
+    color: black;
     font-size: larger;
 }
 
@@ -567,6 +567,13 @@ iframe {
     gap: 1rem;
     grid-column: 1 / -1;;
 
+}
+
+.figcaption-title {
+    margin-top: 1rem;
+    color: var(--accent2-color);
+    font-family: var(--heading-font);
+    font-size: larger;
 }
 
 
