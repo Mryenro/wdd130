@@ -5,6 +5,8 @@
     --accent2-color: #5B5B5B; /* Davy's Gray */
     --heading-font: "Alfa Slab One", sans-serif;
     --body-font: "Open Sans", sans-serif;
+    --accent3-color: #129490; /* third accent color to avoid contrast errors */
+    
 }
 
 
@@ -64,7 +66,7 @@ header, main, footer {
 
 h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent3-color);
 }
 
 nav, p, section, article {
@@ -101,7 +103,7 @@ nav, p, section, article {
 .history-title {
     font-family: var(--heading-font);
     font-size: 1.2rem;
-    color: var(--primary-color);
+    color: var(--accent3-color);
     text-align: center;
 }
 
